@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace CSTetris.Lib
 {
-    public interface IShape
+
+    /*      Teewee
+     * 
+     *        []
+     *      [][][]
+     * 
+     */
+
+    internal class Teewee
     {
-        void Draw(int x, int y);
-
-        void Move(int x, int y);
-
-        void Rotate(int x, int y);
     }
 }

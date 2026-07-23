@@ -41,10 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GameSession.cs" />
+    <Compile Include="Shapes\BlueRicky.cs" />
+    <Compile Include="Shapes\ClevelandZ.cs" />
     <Compile Include="Field.cs" />
     <Compile Include="Game.cs" />
+    <Compile Include="Shapes\Hero.cs" />
     <Compile Include="IShape.cs" />
+    <Compile Include="Shapes\OrangeRicky.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shapes\RhodeIslandZ.cs" />
+    <Compile Include="Shapes\Smashboy.cs" />
+    <Compile Include="Shapes\Teewee.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
